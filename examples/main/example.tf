@@ -4,5 +4,6 @@ variable "v" {
 }
 
 module "root" {
-  source = "hashicorp/module-installer-acctest/aws"
+  source  = "hashicorp/module-installer-acctest/aws"
+  version = "0.0.2"
 }
